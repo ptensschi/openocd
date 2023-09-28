@@ -44,6 +44,7 @@ extern const struct flash_driver max32xxx_flash;
 extern const struct flash_driver mdr_flash;
 extern const struct flash_driver mrvlqspi_flash;
 extern const struct flash_driver msp432_flash;
+extern const struct flash_driver mspm0_flash;
 extern const struct flash_driver niietcm4_flash;
 extern const struct flash_driver npcx_flash;
 extern const struct flash_driver nrf5_flash;
@@ -120,6 +121,7 @@ static const struct flash_driver * const flash_drivers[] = {
 	&mdr_flash,
 	&mrvlqspi_flash,
 	&msp432_flash,
+	&mspm0_flash,
 	&niietcm4_flash,
 	&npcx_flash,
 	&nrf5_flash,
